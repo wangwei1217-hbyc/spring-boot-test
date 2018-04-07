@@ -15,7 +15,7 @@ public class App {
         ConfigurableApplicationContext context = SpringApplication.run(App.class, args);
         System.out.println(context.getBean(UserDao.class));
         System.out.println(context.getBean(User.class));
-        System.out.println(context.getBean(Runnable.class));
-        context.close();
+//        System.out.println(context.getBean(Runnable.class));
+//        context.close();
     }
 }
